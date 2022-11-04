@@ -2,7 +2,7 @@
 
 ---
 
-### Category Name 1  - Supervised Learning
+### Supervised Learning
 
 #### Linear Regression
 [House Price Prediction](https://github.com/Ro0628/PredictHousePrices)
@@ -18,7 +18,7 @@
 
 ---
 
-### Category Name 2
+### Unsupervised Learning
 
 - [Project 1 Title](http://example.com/)
 - [Project 2 Title](http://example.com/)
