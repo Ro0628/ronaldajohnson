@@ -6,7 +6,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   requirements into software, ensuring applications are delivered on time, to specification, scalable and 
   maintainable. A highly-motivated individual who is always learning, able to work to tight deadlines and can communicate effectively.
 
-  <br><br>
+  <br><br><br><br/><br/>
   <a href="https://www.linkedin.com/in/ronaldajohnson/">View My LinkedIn Profile</a> 
   
 theme: jekyll-theme-minimal
