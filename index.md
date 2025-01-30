@@ -2,23 +2,18 @@
 
 ---
 
-### GenAI
+### GenAI Projects
 
 #### Chat Box
-[Automatic Test Loan Creation](https://github.com/Ro0628/PredictHousePrices)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Project 3 Title](http://example.com/)
+[Automatic Developer Test Loan Creation](https://github.com/Ro0628/PredictHousePrices)
+<br/>
+<a>Documentation</a>
+<br/><br/>
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 
-### Hackathon
+### Hackathon(s)
 
 - [Women In Data Science](http://example.com/)
 
