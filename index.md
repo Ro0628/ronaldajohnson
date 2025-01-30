@@ -2,10 +2,10 @@
 
 ---
 
-### Supervised Learning
+### GenAI
 
-#### Linear Regression
-[House Price Prediction](https://github.com/Ro0628/PredictHousePrices)
+#### Chat Box
+[Automatic Test Loan Creation](https://github.com/Ro0628/PredictHousePrices)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
@@ -18,19 +18,13 @@
 
 ---
 
-### Unsupervised Learning
+### Hackathon
 
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
-
----
-
-
+- [Women In Data Science](http://example.com/)
 
 
 ---
-<p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
+
+---
+
 <!-- Remove above link if you don't want to attibute -->
