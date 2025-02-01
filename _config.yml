@@ -11,4 +11,5 @@ description:  # your text below (remove <br> elements if you don't need line bre
   <a href="https://www.linkedin.com/in/ronaldajohnson/">View My LinkedIn Profile</a> 
   
 theme: jekyll-theme-minimal
+markdown: kramdown
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
