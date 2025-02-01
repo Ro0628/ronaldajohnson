@@ -1,20 +1,37 @@
-- name: "Loan Generator AI"
-  type: "Machine Learning"
-  repository_url: "https://github.com/Ro0628/ai-loan-generator"
-  site_url: "https://ro0628.github.io/loan-generator-ai/"
-  description: "AI-powered tool to generate test loans in a Loan Origination System (LOS)."
-  image: "https://raw.githubusercontent.com/Ro0628/ai-loan-generator/main/preview.png"
 
-- name: "DeepRacer ML Model"
-  type: "Reinforcement Learning"
-  repository_url: "https://github.com/Ro0628/deepracer-ml"
-  site_url: ""
-  description: "AWS DeepRacer reinforcement learning model for self-driving car simulations."
-  image: ""
+[
+    {
+        "name": "Loan Risk Predictor",
+        "type": "Supervised Learning",
+        "repository_url": "https://github.com/Ro0628/loan-risk-predictor",
+        "site_url": "https://ro0628.github.io/loan-risk-predictor/",
+        "description": "<p>A machine learning model that predicts the likelihood of loan defaults based on borrower attributes using <strong>Supervised Learning</strong> techniques. The model analyzes past loan data to provide risk assessments.</p>
 
-- name: "Sentiment Analysis Tool"
-  type: "Natural Language Processing"
-  repository_url: "https://github.com/Ro0628/sentiment-analysis"
-  site_url: "https://ro0628.github.io/sentiment-analysis/"
-  description: "NLP tool to analyze sentiment in social media data."
-  image: "https://raw.githubusercontent.com/Ro0628/sentiment-analysis/main/preview.png"
+        <p><strong>Technologies Used:</strong></p>
+        <ul>
+            <li>Python</li>
+            <li>Scikit-Learn</li>
+            <li>XGBoost</li>
+            <li>Pandas & NumPy</li>
+            <li>Flask (for API deployment)</li>
+            <li>PostgreSQL</li>
+        </ul>",
+        "image": "https://raw.githubusercontent.com/Ro0628/loan-risk-predictor/main/preview.png"
+    },
+    {
+        "name": "DeepRacer ML Model",
+        "type": "Reinforcement Learning",
+        "repository_url": "https://github.com/Ro0628/deepracer-ml",
+        "site_url": "",
+        "description": "<p>A reinforcement learning model trained on AWS DeepRacer to autonomously drive a virtual car around a track. The model leverages <strong>Deep Q-Learning</strong> and <strong>Policy Gradient Methods</strong> to improve driving efficiency.</p>
+
+        <p><strong>Technologies Used:</strong></p>
+        <ul>
+            <li>Python</li>
+            <li>AWS DeepRacer</li>
+            <li>TensorFlow</li>
+            <li>Reinforcement Learning Algorithms</li>
+        </ul>",
+        "image": ""
+    }
+]
