@@ -1,0 +1,28 @@
+[
+    {
+        "name": "AI Loan Generator",
+        "type": "Generative AI",
+        "repository_url": "https://github.com/Ro0628/ai-loan-generator",
+        "site_url": "https://ro0628.github.io/ai-loan-generator/",
+        "description": "<p>An AI-powered tool designed to generate test loans in a Loan Origination System (LOS) using <strong>Natural Language Processing (NLP)</strong> and <strong>Machine Learning</strong>. The system allows users to create realistic loan scenarios through <strong>natural language inputs</strong>, automating the loan generation process for testing environments.</p>
+
+        <p><strong>Technologies Used:</strong></p>
+        <ul>
+            <li>Python</li>
+            <li>OpenAI API (GPT-based NLP)</li>
+            <li>FastAPI</li>
+            <li>PostgreSQL</li>
+            <li>AWS (Lambda, DynamoDB, S3)</li>
+            <li>Hugging Face Transformers</li>
+        </ul>",
+        "image": "https://raw.githubusercontent.com/Ro0628/ai-loan-generator/main/preview.png"
+    },
+    {
+        "name": "Content Generation Model",
+        "type": "Text Generation",
+        "repository_url": "https://github.com/Ro0628/genai-text-generator",
+        "site_url": "https://ro0628.github.io/genai-text-generator/",
+        "description": "An AI-powered content generation tool using GPT-like architecture.",
+        "image": "https://raw.githubusercontent.com/Ro0628/genai-text-generator/main/preview.png"
+    }
+]
