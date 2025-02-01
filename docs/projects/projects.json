@@ -1,1 +1,13 @@
-[{ name: AI Test Loan Generator}]
+[
+    {
+        "name": "AI Test Loan Generator",
+        "description": "An AI-powered test loan generator for Loan Origination Systems (LOS).",
+        "repo_url": "https://github.com/Ro0628/loan-generator",
+        "demo_url": "https://loan-generator-demo.vercel.app/"
+    },
+    {
+        "name": "Data Science Hackathon Models",
+        "description": "Machine learning models developed for WiDS Datathon and AWS DeepRacer.",
+        "repo_url": "https://github.com/Ro0628/hackathon-models"
+    }
+]

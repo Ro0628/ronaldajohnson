@@ -1,11 +1,15 @@
 title: Ronalda Johnson # your name (or website title) here
 logo: "images/A87E7818-A11C-45B8-9AAB-63818D247A64_1_201_a.jpeg?raw=true" # your photo (or logo) here
 description:  # your text below (remove <br> elements if you don't need line breaks)
-  Experienced software developer and technical lead with a Master’s degree in Data Science and 15 years of experience in designing, developing, and implementing software applications. Able to lead development teams and mentor junior developers to achieve project goals. Excellent communication, organization and problem-solving skills with a passion for staying up-to-date with the latest technologies and industry trends. A fast-learner and a team-player with a strong interest in data. 
-
+  <p>Motivated professional with a Master’s degree in Data Science, a strong foundation in programming (Python, SQL, R), and 
+    analytical problem-solving. Experienced in designing systems and applying technical expertise to develop predictive models 
+    and deliver impactful solutions. My background in software development fosters adaptability and a strategic mindset, enabling 
+    me to contribute effectively to data-driven decision-making. Passionate about solving real-world challenges and driving meaningful 
+    outcomes through data.</p>
 
   <br><br><br><br/><br/>
   <a href="https://www.linkedin.com/in/ronaldajohnson/">View My LinkedIn Profile</a> 
   
 theme: jekyll-theme-minimal
+markdown: kramdown
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
