@@ -1,29 +1,39 @@
 ## My Projects
 
-{% for project in site.data.ds-projects %}
+### Gen AI Projects
+{% assign grouped_projects = site.data.gen_ai_projects | group_by: "type" %}
+{% for group in grouped_projects %}
+### {{ group.name }}
+{% for project in group.items %}
 <div class="project-item">
-    <h3><a href="{{ ds-project.repository_url }}" target="_blank">{{ ds-project.name }}</a></h3>
-    <p>{{ ds-project.description }}</p>
-    {% if ds-project.site_url %}
-        <p><a href="{{ ds-project.site_url }}" target="_blank">Live Site</a></p>
+    <h3><a href="{{ project.repository_url }}" target="_blank">{{ project.name }}</a></h3>
+    <p>{{ project.description }}</p>
+    {% if project.site_url %}
+        <p><a href="{{ project.site_url }}" target="_blank">Live Site</a></p>
     {% endif %}
     {% if project.image %}
-        <img src="{{ ds-project.image }}" alt="{{ ds-project.name }}" width="200">
+        <img src="{{ project.image }}" alt="{{ project.name }}" width="200">
     {% endif %}
 </div>
 {% endfor %}
+{% endfor %}
 
-{% for project in site.data.gen-ai-projects %}
+### Machine Learning Projects
+{% assign grouped_projects = site.data.ml_projects | group_by: "type" %}
+{% for group in grouped_projects %}
+### {{ group.name }}
+{% for project in group.items %}
 <div class="project-item">
-    <h3><a href="{{ gen-ai-projects.repository_url }}" target="_blank">{{ gen-ai-projects.name }}</a></h3>
-    <p>{{ gen-ai-projects.description }}</p>
+    <h3><a href="{{ project.repository_url }}" target="_blank">{{ project.name }}</a></h3>
+    <p>{{ project.description }}</p>
     {% if project.site_url %}
-        <p><a href="{{ gen-ai-projects.site_url }}" target="_blank">Live Site</a></p>
+        <p><a href="{{ project.site_url }}" target="_blank">Live Site</a></p>
     {% endif %}
     {% if project.image %}
-        <img src="{{ gen-ai-projects.image }}" alt="{{ gen-ai-projects.name }}" width="200">
+        <img src="{{ project.image }}" alt="{{ project.name }}" width="200">
     {% endif %}
 </div>
+{% endfor %}
 {% endfor %}
 
 <style>
